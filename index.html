@@ -741,6 +741,24 @@ a { text-decoration:none; color:inherit; }
   .support-photo-row { grid-template-columns:1fr; margin-left:0; }
 }
 </style>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1119292410270611');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1119292410270611&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
 </head>
 <body>
 
@@ -785,7 +803,7 @@ a { text-decoration:none; color:inherit; }
       </div>
     </div>
     <div class="hero-buttons">
-      <a href="https://tl-appt.com/reserve?SID=4EPRc6CYJx" class="btn-reserve" target="_blank" rel="noopener">
+      <a href="https://tl-appt.com/reserve?SID=4EPRc6CYJx" class="btn-reserve" target="_blank" rel="noopener" onclick="fbq('track', 'Lead');">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
         今すぐ体験トレーニングを予約
       </a>
@@ -1107,7 +1125,7 @@ a { text-decoration:none; color:inherit; }
         でも、その一歩を踏み出したお客様の多くが<br>
         「もっと早く来ればよかった」と笑顔で話してくれます。
       </p>
-      <a href="https://tl-appt.com/reserve?SID=4EPRc6CYJx" class="btn-reserve" target="_blank" rel="noopener">
+      <a href="https://tl-appt.com/reserve?SID=4EPRc6CYJx" class="btn-reserve" target="_blank" rel="noopener" onclick="fbq('track', 'Lead');">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
         体験トレーニングを予約する
       </a>
@@ -1152,7 +1170,7 @@ a { text-decoration:none; color:inherit; }
       3月限定キャンペーン中
       <small>入会金半額 ＆ 体験¥1,000</small>
     </div>
-    <a href="https://tl-appt.com/reserve?SID=4EPRc6CYJx" class="btn-reserve" target="_blank" rel="noopener">
+    <a href="https://tl-appt.com/reserve?SID=4EPRc6CYJx" class="btn-reserve" target="_blank" rel="noopener" onclick="fbq('track', 'Lead');">
       今すぐ予約 →
     </a>
   </div>
